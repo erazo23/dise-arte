@@ -1,18 +1,17 @@
 .{
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 body{
     margin: 0;
-    color: black;
 }
 
 nav{
-    background-color: black;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: black;
     border-top: 0;
     width: 100%;
-    height: 45px;
+    height: 40px;
     margin: 0;
     position: absolute;
     text-align: center;
@@ -20,72 +19,74 @@ nav{
 }
 
 .navbar-brand{
-    height: 50px;
+    height: 40px;
     width: 150px;
     float: left;
     font-family: 'Lobster', cursive;
+    padding: 0;
 }
 
 .contenedor{
     top: 0;
-    bottom: 30px;
-    background-color: black;
     width: 100%;
     height: auto;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
     display: inline-grid;
     position: relative;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 600px 300px 400px  300px 200px;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto 300px 400px  300px 200px;
 }
 
 .slider{
-    background-color: rgb(223, 88, 88);
-    grid-template-columns: 60% 40%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    width: 100%;
     grid-column-start: 1;
     grid-column-end: 5;
-    border-radius: 10px;
 }
+
+.slider img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 .tia{
     background-color: whitesmoke;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    border-radius: 10px;
-    border: solid 0.6px gray;
+
     color: black;
 }
 .stock{
-    background-color: rgb(106, 110, 110);
+    background-color: rgb(231, 204, 113);
     grid-column-start: 1;
     grid-column-end: 5;
-    border-radius: 10px;
+
 }
 .contacto{
     background-color: rgb(169, 213, 247);
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row:5 / 6;
-    border-radius: 10px;
+
 }
 .form{
     background-color: #91CEFA;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row: 4 / 5 ;
-    border-radius: 10px;
+
 }
 .redes{
     background-color: #47657A;
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row:5 / 6;
-    border-radius: 10px;
+
 }
 
 footer{
@@ -99,26 +100,7 @@ footer{
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 6;
-    border-radius: 10px;
-}
 
-.carousel-item img{
-    width: 450px;
-    height: 600px;
-    padding-left: 50px;
-}
-
-.carousel-caption{
-    color: rgba(221, 221, 221,0.8);
-    background: rgba(0,0,0,0.8);
-    width: 400px;
-    right: 150px;
-    left: 45%;
-    bottom: 0;
-    top: 0;
-    padding-right: 60px;
-    padding-top: 250px;
-    padding-left: 50px;
 }
 
 .navbar-buttons{
@@ -129,7 +111,7 @@ footer{
     margin: 0;
     padding: 0;
     height: 40px;
-    width: 320px;
+    width: 350px;
     grid-template-columns: 25% 25% 25% 25%;
 
 }
@@ -139,22 +121,23 @@ footer{
     padding-top: 10px;
     text-align: center;
     font-size: 13px;
+    height: 100%;
 }
 
 .b1{
-    background-color: whitesmoke;
+    border-left: solid 4px rgb(223, 88, 88);
     border-bottom-left-radius: 10px;
 }
 .b2{
-    background-color: rgb(106, 110, 110);
+    border-left: solid 4px rgb(106, 110, 110);
     color: whitesmoke;
 }
 .b3{
-    background-color: #91CEFA;
+    border-left: solid 4px #91CEFA;
 }
 .b4{
-    background-color: #47657A;
     color: whitesmoke;
+    border-left: solid 4px #47657A ;
 }
 
 a{ 
